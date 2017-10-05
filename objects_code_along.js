@@ -8,61 +8,71 @@
 //   key2: value2
 // };
 
-// KEY-VALUE PAIRS
+// **KEY-VALUE PAIRS**
 // An object has no defined length or order.
 // We can some sense out of this by using Key-Value Pairs.
 
 // key = identifier (like an index of an array);
 // value = data you wish to refer to (it can be anything at all);
 
-// Accessing KEY-VALUE PAIRS:
+// ***Accessing KEY-VALUE PAIRS:***
+// var person = {
+//   developer : true,
+//   age: 55,
+//   checkAge : function () {
+//     return this.age;
+//   },
+//   siblings : ['Sally', 'George', 'Fred', 'Selena'],
+//   child : {
+//     name: 'Jessica',
+//     age: 25,
+//     height: 5.4,
+//     friends: [{
+//       name : 'Mark',
+//       age: 27,
+//       height: 5.8
+//     }, {
+//       name : 'Demian',
+//       age : 35,
+//       height: 5.11,
+//       friends : [{
+//         name: 'Sara',
+//         age: 32,
+//         height: 5.9
+//       }]}]
+//   }
+// }
+
 var person = {
   developer : true,
-  age: 55,
-  checkAge : function () {
-    return this.age;
-  },
-  siblings : ['Sally', 'George', 'Fred', 'Selena'],
-  child : {
-    name: 'Jessica',
-    age: 25,
-    height: 5.4,
-    friends: [{
-      name : 'Mark',
-      age: 27,
-      height: 5.8
-    }, {
-      name : 'Demian',
-      age : 35,
-      height: 5.11,
-      friends : [{
-        name: 'Sara',
-        age: 32,
-        height: 5.9
-      }]}]
-  }
+  age: 55
 }
 
-// SQUARE BRACKET NOTATION:
+// **SQUARE BRACKET NOTATION:**
 // can be used for variables
 // SYNTAX:
 // object[key];
 
-// DOT NOTATION:
+// **DOT NOTATION:**
 // can NOT be used for variables (ie. for-in loop)
 // SYNTAX:
 //object.key
 
 // Examples:
 //Before Running this, make a guess what this will output
-// UNCOMMENT BELOW!!
-// console.log("ENTER GUESS HERE", person[developer]);
 
 // UNCOMMENT BELOW!!
 // console.log("ENTER GUESS HERE", person["developer"]);
+// console.log(person.age);
+
+// UNCOMMENT BELOW!!
+// console.log("ENTER GUESS HERE", person[developer]);
+
+// (****DELETE BELOW:
 // console.log("ENTER GUESS HERE", person.checkAge());
-// console.log("ENTER GUESS HERE", person.siblings);
-// Updating Key-Value Pairs:
+// console.log("ENTER GUESS HERE", person.siblings);****)
+
+// **UPDATING Key-Value Pairs:**
 
 // Syntax:
 // UNCOMMENT BELOW!!
@@ -80,13 +90,32 @@ var person = {
 // person[height] = 5.10;
 // console.log(person);
 
+//***QUESTIONS??***
+
 // Deleting Key-Value Pairs:
 
 // Syntax:
 // delete object[key];
-// delet object.key;
+// delete object.key;
 
-// Iterating over Objects:
+// Add a pet with name to person object.
+// Update your person object to add your information
+// delete the pet key-value pair to your person object
+
+
+//***Now let's make this more complicated!****
+//add a friend object to your person object
+//In that object, add a name, age, height
+
+
+//How do you access the friend's name?
+
+//now add friend object to your friend//
+
+//how do you access that friend's age?
+
+// **Iterating over Objects:**
+
 // FOR-IN LOOP:
 // STRUCTURE:
 // for(var KEY in OBJECT){

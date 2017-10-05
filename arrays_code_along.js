@@ -14,6 +14,7 @@
 
 var pizzaToppings = ['Mozzarella', 'Pepperoni', 'Peppers', 'Basil', 'Sun-Dried Tomatoes'];
 
+
 //Before Running this, make a guess what this will output
 // UNCOMMENT BELOW:
 //
@@ -33,17 +34,19 @@ var pizzaToppings = ['Mozzarella', 'Pepperoni', 'Peppers', 'Basil', 'Sun-Dried T
 // Think about this?
 
 // var numbers = [0,1,2,3,4,5];
-
+//
 // console.log("TRUE OR FALSE", numbers.length === numbers.indexOf(5))
 
-// FOR LOOP:
-// structure= for ([Initial Expression]; [Condition]; [Increment Expression]) {
-//Do Something Here};
+// // FOR LOOP:
+// structure=
+//    for ([Initial Expression]; [Condition]; [Increment Expression]) {
+// Do Something Here
+// };
 
 // example:
 // UNCOMMENT BELOW:
 
-// var array = ['Sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
+var array = ['Sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
 // UNCOMMENT BELOW:
 
 // for(let i = 0; i < array.length; i++){
@@ -56,11 +59,12 @@ var pizzaToppings = ['Mozzarella', 'Pepperoni', 'Peppers', 'Basil', 'Sun-Dried T
 // }
 
 // FOR OF LOOP:
-// structure: for (var element of array){
+// structure:
+// for (var element of array){
 //   Do Something here};
 
-// example:
-
+// // example:
+//
 // for(let word of array){
 //   console.log(word);
 // };
@@ -82,8 +86,16 @@ var pizzaToppings = ['Mozzarella', 'Pepperoni', 'Peppers', 'Basil', 'Sun-Dried T
 
 // Test it out:
 // UNCOMMENT BELOW:
-// var perfectBurger = [];
-// var burgerToppings = ['lettuce', 'tomato', 'cheese', 'bacon', 'mayo', 'bbq', 'buffalo sauce', 'mushroom', 'onions', 'pulled pork', 'pineapple', 'peanut butter', 'jalapeno jelly'];
-// var burgerTypes = ['hamburger', 'chicken', 'veggie patty', 'tofu', 'bison patty'];
+var perfectBurger = [];
+var burgerToppings = ['lettuce', 'tomato', 'cheese', 'bacon', 'mayo', 'bbq', 'buffalo sauce', 'mushroom', 'onions', 'pulled pork', 'pineapple', 'peanut butter', 'jalapeno jelly'];
+var burgerTypes = ['hamburger', 'chicken', 'veggie patty', 'tofu', 'bison patty'];
+perfectBurger.push(burgerToppings.splice(0,3))
+// console.log(perfectBurger);
+// console.log(burgerToppings);
+let arrays =['lettuce','cheese','bacon']
+// let array7= [1,2,3]
+// console.log(array7.concat([4]));
+burgerToppings = burgerToppings.concat(arrays);
+console.log(burgerToppings);
 
-// make your own perfect Burger by manipulating the toppings and type array and adding them to the perfect burger!
+// make your own perfec]t Burger by manipulating the toppings and type array and adding them to the perfect burger!

@@ -16,23 +16,24 @@
 //Before Running this, make a guess what this will output
 // UNCOMMENT BELOW:
 
-// console.log("ENTER GUESS HERE", string);
-// console.log("ENTER GUESS HERE", string2);
+// console.log("Yay", string);
+// console.log("Hey Class", string2);
 
 // UNCOMMENT BELOW:
-
+//
 // var array = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
 // var array2 = array;
-// array = [1,2,3];
-
-//Before running this, make a guess what this will output
-// UNCOMMENT BELOW:
-
-// console.log("ENTER GUESS HERE", array);
+// var array3 = [1,2,3];
+// array.push(array3);
+// //
+// //Before running this, make a guess what this will output
+// // UNCOMMENT BELOW:
+//
+// console.log("1,2,3", array);
 // console.log("ENTER GUESS HERE", array2);
 
 // UNCOMMENT BELOW:
-
+//
 // var arr = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
 // var arr2 = arr;
 // var arr3 = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
@@ -41,6 +42,13 @@
 // UNCOMMENT BELOW:
 
 // console.log(arr === arr2);
-// console.log(arr === arr3);
+// console.log(arr == arr3);
 
 //Turn and talk to a neighbor as to why this may be
+//
+// let arr = [1,2,3];
+// let arr2 = arr;
+// let arr3 = "1,2,3";
+// arr2.push(arr3);
+// 
+// console.log(arr);
