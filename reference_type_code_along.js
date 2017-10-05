@@ -7,30 +7,40 @@
 // How this differs from a Primitive Type is pretty confusing, but you will get it.
 
 //examples:
-var string = "Hey Class, How are you doing?";
-var string2 = string;
-string = "Yay! Learning all these subjects are so much fun!";
+// UNCOMMENT BELOW:
+
+// var string = "Hey Class, How are you doing?";
+// var string2 = string;
+// string = "Yay! Learning all these subjects are so much fun!";
 
 //Before Running this, make a guess what this will output
-console.log("ENTER GUESS HERE", string);
-console.log("ENTER GUESS HERE", string2);
+// UNCOMMENT BELOW:
 
+// console.log("ENTER GUESS HERE", string);
+// console.log("ENTER GUESS HERE", string2);
 
-var array = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
-var array2 = array;
-array = [1,2,3];
+// UNCOMMENT BELOW:
+
+// var array = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
+// var array2 = array;
+// array = [1,2,3];
 
 //Before running this, make a guess what this will output
-console.log("ENTER GUESS HERE", array);
-console.log("ENTER GUESS HERE", array2);
+// UNCOMMENT BELOW:
 
+// console.log("ENTER GUESS HERE", array);
+// console.log("ENTER GUESS HERE", array2);
 
-var arr = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
-var arr2 = arr;
-var arr3 = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
+// UNCOMMENT BELOW:
+
+// var arr = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
+// var arr2 = arr;
+// var arr3 = ['sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
 
 //Before running this, make a guess as to the if the comparison is true or false
-console.log(arr === arr2);
-console.log(arr === arr3);
+// UNCOMMENT BELOW:
+
+// console.log(arr === arr2);
+// console.log(arr === arr3);
 
 //Turn and talk to a neighbor as to why this may be

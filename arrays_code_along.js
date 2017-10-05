@@ -15,9 +15,11 @@
 var pizzaToppings = ['Mozzarella', 'Pepperoni', 'Peppers', 'Basil', 'Sun-Dried Tomatoes'];
 
 //Before Running this, make a guess what this will output
-console.log("ENTER GUESS HERE", pizzaToppings[2]);
-console.log("ENTER GUESS HERE", pizzaToppings[5]);
-console.log("ENTER GUESS HERE", pizzaToppings[6]);
+// UNCOMMENT BELOW:
+//
+// console.log("ENTER GUESS HERE", pizzaToppings[2]);
+// console.log("ENTER GUESS HERE", pizzaToppings[5]);
+// console.log("ENTER GUESS HERE", pizzaToppings[6]);
 
 
 // Iterating over Arrays
@@ -39,11 +41,15 @@ console.log("ENTER GUESS HERE", pizzaToppings[6]);
 //Do Something Here};
 
 // example:
+// UNCOMMENT BELOW:
+
 // var array = ['Sally', 'sells', 'seashells', 'by', 'the', 'seashore'];
+// UNCOMMENT BELOW:
 
 // for(let i = 0; i < array.length; i++){
 //   console.log(array[i]);
 // }
+// UNCOMMENT BELOW:
 
 // for(let i = 0; i < 3; i++){
 //   console.log(array[i]);
@@ -75,9 +81,9 @@ console.log("ENTER GUESS HERE", pizzaToppings[6]);
 // splice - removes a section of an array;
 
 // Test it out:
-
-var perfectBurger = [];
-var burgerToppings = ['lettuce', 'tomato', 'cheese', 'bacon', 'mayo', 'bbq', 'buffalo sauce', 'mushroom', 'onions', 'pulled pork', 'pineapple', 'peanut butter', 'jalapeno jelly'];
-var burgerTypes = ['hamburger', 'chicken', 'veggie patty', 'tofu', 'bison patty'];
+// UNCOMMENT BELOW:
+// var perfectBurger = [];
+// var burgerToppings = ['lettuce', 'tomato', 'cheese', 'bacon', 'mayo', 'bbq', 'buffalo sauce', 'mushroom', 'onions', 'pulled pork', 'pineapple', 'peanut butter', 'jalapeno jelly'];
+// var burgerTypes = ['hamburger', 'chicken', 'veggie patty', 'tofu', 'bison patty'];
 
 // make your own perfect Burger by manipulating the toppings and type array and adding them to the perfect burger!

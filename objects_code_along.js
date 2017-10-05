@@ -55,20 +55,29 @@ var person = {
 
 // Examples:
 //Before Running this, make a guess what this will output
-// UNCOMMENT HERE!!
+// UNCOMMENT BELOW!!
 // console.log("ENTER GUESS HERE", person[developer]);
 
-// UNCOMMENT HERE!!
+// UNCOMMENT BELOW!!
 // console.log("ENTER GUESS HERE", person["developer"]);
 // console.log("ENTER GUESS HERE", person.checkAge());
 // console.log("ENTER GUESS HERE", person.siblings);
 // Updating Key-Value Pairs:
 
 // Syntax:
-// UNCOMMENT HERE!!
+// UNCOMMENT BELOW!!
 // person.developer = false;
 // person['age'] = 56;
-//
+
+// console.log(person);
+
+// what about adding a name to person?
+// UNCOMMENT BELOW
+// person.name = "Jack";
+// console.log(person);
+// or
+// UNCOMMENT BELOW
+// person[height] = 5.10;
 // console.log(person);
 
 // Deleting Key-Value Pairs:
@@ -94,7 +103,7 @@ var person = {
 
 
 // Example:
-// UNCOMMENT HERE!!
+// UNCOMMENT BELOW!!
 // var musicOfThe90s = {
 //   hip_hop: ['NWA', 'Snoop Dogg','Tupac', 'Notorious B.I.G', 'Wu-Tang Clan', 'Run-D.M.C', 'A Tribe Called Quest', 'De La Soul', 'Public Enemy'],
 //   pop: ['Backstreet Boys', 'NSYNC', 'Spice Girls', 'New Kids on the Block', 'Destiny\'s Child', 'Hanson', 'TLC', 'Boys II Men', 'No Doubt', 'En Vogue'],
@@ -102,7 +111,7 @@ var person = {
 // };
 
 //Before Running this, make a guess what this will output
-// UNCOMMENT HERE!!
+// UNCOMMENT BELOW!!
 // console.log("ENTER GUESS HERE", musicOfThe90s.hasOwnProperty('Tupac'));
 // console.log("ENTER GUESS HERE", musicOfThe90s.hasOwnProperty('hip-hop'));
 // console.log("ENTER GUESS HERE", Object.keys(musicOfThe90s));
