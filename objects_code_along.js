@@ -1,4 +1,5 @@
 //Objects!
+// References: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object"
 // Defintion: a "container" for similar data
 // SYNTAX:
 // var object = {
